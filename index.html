@@ -1,5 +1,5 @@
   <!DOCTYPE html>
-<html lang="en">
+<html lang="de">
 
 <head>
     <meta charset="UTF-8">
@@ -9,14 +9,27 @@
 </head>
 
 <body>
-    <form>
+    <header>
+        <h1>Webseite zur Passwortvalidierung</h1>
+        <nav>
+            <ul>
+                <li></li>
+            </ul>
+        </nav>
+    </header> 
+
+    <main>
         <div class="container">
             <label for="psw"><b>Passwort</b></label>
             <input type="text" placeholder="Passwort eingeben" name="psw" onkeyup="onPasswordChanged()" id="passwordInput" required>
             <p id="msg"></p>
             <button type="submit" id="passwordButton" disabled="true" onclick="onButtonClick()">Passwort speichern</button>
         </div>
-    </form>
+    </main>
+
+    <footer>
+        <a href="https://www.xing.com/profile/Tim_Walter62/cv" target="_blank">Mein Xing Profil</a>
+    </footer>
 
     <script src="index.js"></script>
 </body>
