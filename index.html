@@ -6,21 +6,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Passwortvalidierung</title>
     <link rel="stylesheet" href="index.css">
+    <h1>Webseite zur Passwortvalidierung</h1>
 </head>
 
 <body>
     <header>
-        <h1>Webseite zur Passwortvalidierung</h1>
-        <nav>
-            <ul>
-                <li></li>
-            </ul>
-        </nav>
+        <h2>Beschreibung</h2>
+        <p>Mit dieser Webseite, können Sie Passwörter validieren und abspeichern. Gegebn Sie hierfür, weiter unten das zu validierende Passwort ein.</p>
     </header> 
 
     <main>
+        <h2>Passwort validieren</h2>
         <div class="container">
-            <label for="psw"><b>Passwort</b></label>
+            <label for="psw"><b>Passwort hier eingeben</b></label>
             <input type="text" placeholder="Passwort eingeben" name="psw" onkeyup="onPasswordChanged()" id="passwordInput" required>
             <p id="msg"></p>
             <button type="submit" id="passwordButton" disabled="true" onclick="onButtonClick()">Passwort speichern</button>

@@ -1,3 +1,14 @@
+h1{
+    color: coral;
+    font-size: xx-large;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+h2{
+    color: darkblue;
+    font-size: x-large;
+}
+
 /* Bordered form */
 
 form {
@@ -33,7 +44,7 @@ button:hover {
 }
 
 button:disabled {
-    background-color: grey;
+    background-color: rgb(85, 12, 12);
 }
 
 /* Add padding to containers */
